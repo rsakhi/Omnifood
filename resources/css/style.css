@@ -11,4 +11,9 @@ html {
     font-weight: 30o;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-};
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
