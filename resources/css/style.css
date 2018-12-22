@@ -168,3 +168,26 @@ header {
     border-bottom: 1px solid #e67e22;
     padding: 5px 0
 }
+
+.meals-section{
+    margin-top: 110px; 
+}
+.meal-showcase{
+    width: 100%;
+    list-style: none;
+}
+.meal-showcase li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img{
+    width: 100%;
+    height: auto;
+}
