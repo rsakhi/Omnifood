@@ -26,6 +26,21 @@ html {
     margin: 0 auto;
 }
 
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s
+}
+
+a:hover,
+a:active {
+    border-bottom: 1px solid transparent;
+    color: #000;
+}
+
 .box {
     padding: 1px;
 }
@@ -85,6 +100,8 @@ h2::after{
     color: #e67e22;
     margin-bottom: 10px; 
 }
+
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -139,6 +156,11 @@ header {
 .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: 3px;
 }
 
 .logo {
@@ -263,4 +285,22 @@ work-step:last-of-type {
 .city-img {
     height: 150px;
     width: auto;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.icon-small {
+    color: #e67e22;
+    font-size: 120%;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.box div {
+    margin-bottom: 10px;
 }
