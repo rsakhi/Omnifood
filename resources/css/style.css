@@ -107,6 +107,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 
@@ -303,4 +304,42 @@ work-step:last-of-type {
 
 .box div {
     margin-bottom: 10px;
+}
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; 
+}
+
+blockquote {
+    padding: 2px;
+    font-style: italic; 
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before {
+    content: "\201c";
+    font-size: 300%;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -3xp;
+
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
 }
