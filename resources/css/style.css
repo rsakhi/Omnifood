@@ -213,6 +213,10 @@ header {
 
 }
 
+.section-steps {
+    background-color: rgb(252, 252, 252)
+}
+
 .steps-box:last-child {
     padding-left: 3%;
     margin-top: 70px;
@@ -254,4 +258,9 @@ work-step:last-of-type {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+.city-img {
+    height: 150px;
+    width: auto;
 }
